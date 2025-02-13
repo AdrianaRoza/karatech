@@ -28,15 +28,29 @@ const SideNav = () => {
         <li>
           <Link href="/">
             <span className="block p-2 rounded hover:bg-gray-700">
-              🏠 {isOpen && "Início"}
+              🏠 {isOpen && "Home"}
             </span>
           </Link>
         </li>
         <li>
-          <Link href="/tecnicas">
-            <span className="block p-2 rounded hover:bg-gray-700">
-              ⚔️ {isOpen && "Técnicas"}
+          <Link href="/technique">
+          <span className="block p-2 rounded hover:bg-gray-700">
+              🥋 {isOpen && "Tecnicas"}
             </span>
+          </Link>
+        </li>
+        <li>
+          <Link href="/kata">
+            <span className="block p-2 rounded hover:bg-gray-700">
+              🥋 {isOpen && "Kata"}
+            </span>
+          </Link>
+        </li>
+        <li>
+          <Link href="/student_data">
+          <span className="block p-2 rounded hover:bg-gray-700">
+              📊 {isOpen && "Dados do Estudante"}
+          </span>
           </Link>
         </li>
       </ul>
