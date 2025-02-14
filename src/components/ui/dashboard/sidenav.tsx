@@ -33,6 +33,20 @@ const SideNav = () => {
           </Link>
         </li>
         <li>
+          <Link href="/student_data">
+            <span className="block p-2 rounded hover:bg-gray-700">
+              📄 {isOpen && "Dados do Aluno"}
+            </span>
+          </Link>
+        </li>
+        <li>
+          <Link href="/karate_history">
+          <span className="block p-2 rounded hover:bg-gray-700">
+              🥋 {isOpen && "História do Karate"}
+            </span>
+          </Link>
+        </li>
+        <li>
           <Link href="/technique">
           <span className="block p-2 rounded hover:bg-gray-700">
               🥋 {isOpen && "Tecnicas"}
@@ -40,17 +54,17 @@ const SideNav = () => {
           </Link>
         </li>
         <li>
-          <Link href="/kata">
+          <Link href="/kumite">
             <span className="block p-2 rounded hover:bg-gray-700">
-              🥋 {isOpen && "Kata"}
+              🥋 {isOpen && "kumite"}
             </span>
           </Link>
         </li>
         <li>
-          <Link href="/student_data">
-          <span className="block p-2 rounded hover:bg-gray-700">
-              📊 {isOpen && "Dados do Estudante"}
-          </span>
+          <Link href="/kata">
+            <span className="block p-2 rounded hover:bg-gray-700">
+              🥋 {isOpen && "kata"}
+            </span>
           </Link>
         </li>
       </ul>
