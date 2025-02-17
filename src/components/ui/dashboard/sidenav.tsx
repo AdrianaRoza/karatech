@@ -10,7 +10,7 @@ const SideNav = () => {
 
   return (
     <motion.div
-      className="fixed left-0 top-0 h-screen bg-gray-900 text-white flex flex-col p-4 shadow-lg z-40"
+      className="fixed left-0 top-0 h-screen bg-blue-900 text-white flex flex-col p-4 shadow-lg z-40"
       initial={{ width: "4rem" }} // Largura inicial pequena
       animate={{ width: isOpen ? "16rem" : "4rem" }} // Expande ao passar o mouse
       transition={{ duration: 0.3 }}
