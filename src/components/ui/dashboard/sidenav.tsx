@@ -67,6 +67,13 @@ const SideNav = () => {
             </span>
           </Link>
         </li>
+        <li>
+          <Link href="/students">
+            <span className="block p-2 rounded hover:bg-gray-700">
+              🥋 {isOpen && "Alunos"}
+            </span>
+          </Link>
+        </li>
       </ul>
     </motion.div>
   );
