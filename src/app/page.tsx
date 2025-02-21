@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { StudentProvider } from "./context/studentcontext"
 
 const Login = () => {
   return (
