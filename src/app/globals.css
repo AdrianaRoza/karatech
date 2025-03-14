@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-200 text-white; /* Altere a cor de fundo e texto conforme desejar */
+  @apply bg-white text-white; /* Altere a cor de fundo e texto conforme desejar */
 }
 
 

@@ -3,7 +3,7 @@
 
 const Technique = () =>{
     return(
-        <div>
+        <div className="text-black">
             Tecnicas
         </div>
     )

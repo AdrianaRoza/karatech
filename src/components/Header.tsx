@@ -2,7 +2,7 @@
 
 const Header = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-600 via-blue-400 to-blue-900
+    <div className="bg-gradient-to-r from-slate-600 via-slate-400 to-slate-00
       py-3">
       <h1 className="text-white font-bold text-center">
         Karatech

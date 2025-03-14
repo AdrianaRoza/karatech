@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import SideNav from "@/components/ui/dashboard/sidenav";
-import { StudentProvider } from "./context/studentcontext";
+import Footer from "@/components/footer"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <StudentProvider>
+    
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
@@ -40,12 +40,12 @@ export default function RootLayout({
             <Header />
             <main className="flex-grow ml-16 p-6 md:overflow-y-auto md:p-12">
               {children}
+              <Footer/>
             </main>
           </div>
         </div>
     </body>
   </html>
-  </StudentProvider>
 );
 }
 

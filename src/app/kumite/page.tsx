@@ -2,7 +2,11 @@
 
 const Kumite = () =>{
     return(
-      <div className="min-h-screen w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white p-6">
+      <div 
+	  	className="min-h-screen w-full 
+		bg-gradient-to-br from-slate-600 via-slate-400 to-slate-800
+				 text-black p-6">
+				
 				<div className="max-w-3xl mx-auto p-6">
 					<h1 className="text-5xl font-bold mb-6 text-center">Bem-vindo!</h1>
 					<p className="text-lg leading-relaxed m-5 p-7">

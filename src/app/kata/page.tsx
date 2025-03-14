@@ -2,7 +2,10 @@
 
 const Kata = () =>{
     return(
-			<div className="flex flex-col items-center justify-center h-screen w-full bg-gradient-to-r from-blue-500 to-blue-700 text-white p-6">
+			<div 
+				className="flex flex-col items-center justify-center h-screen w-full 
+					bg-gradient-to-br from-slate-600 via-slate-400 to-slate-800 
+					text-black p-6">
 				<h1 className="text-5xl font-bold mb-4">Bem-vindo!</h1>
 				<p className="text-lg max-w-2xl text-center">
 					KATA:
