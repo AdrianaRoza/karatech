@@ -1,10 +1,18 @@
-
+import Link from "next/link";
 
 const Karate_history = () =>{
     return(
-        <div>
+    <>
+        <div className="text-black">
              História do Karate-Do
         </div>
+				<Link href="/">
+				<span className=" text-black p-1 rounded hover:bg-gray-400">
+					Voltar para Home
+				</span>
+				</Link>
+
+    </>
     )
 }
 
