@@ -14,16 +14,7 @@ const Login = () => {
           <span className="text-black">Venha praticar Karate</span> 
           <span>e descubra seu verdadeiro potencial!</span>
         </h1>
-
-        {/* Botão Login centralizado abaixo do texto */}
-        <div className="w-full flex justify-center">
-          <Link 
-            href="/Home"
-            className="text-black text-xl font-bold px-6 py-3 rounded-xl hover:bg-gray-500 transition duration-300"
-          >
-            Login
-          </Link>
-        </div>
+        
       </div>
     </div>
   );
