@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import SideNav from "@/components/ui/dashboard/sidenav";
-import Footer from "@/components/footer"
+import Footer from "@/components/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,26 +26,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
+        <div className="flex h-screen flex-col md:flex-row">
           {/* Sidebar */}
-          
-          <SideNav />
-         
+          <SideNav/>
 
           {/* Conteúdo principal */}
           <div className="flex flex-col w-full">
             <Header />
-            <main className="flex-grow ml-16 p-6 md:overflow-y-auto md:p-12">
+            <main className="flex-grow ml-0 md:ml-64 p-6 md:p-12 overflow-y-auto">
               {children}
-              <Footer/>
             </main>
+            <Footer />
           </div>
         </div>
-    </body>
-  </html>
-);
+      </body>
+    </html>
+  );
 }
-

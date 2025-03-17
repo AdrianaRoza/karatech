@@ -8,7 +8,6 @@ import { Menu, X } from "lucide-react"; // Ícone para indicar o menu
 
 const SideNav = () => {
   const [isOpen, setIsOpen] = useState(false);
-  
   const pathname = usePathname(); // Obtém a rota atual
 
   if (pathname === "/") {
