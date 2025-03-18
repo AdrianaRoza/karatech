@@ -71,20 +71,6 @@ const SideNav = () => {
               </Link>
             </li>
             <li>
-              <Link href="/kumite" passHref>
-                <span className="block p-2 rounded hover:bg-gray-700" onClick={() => setIsOpen(false)}>
-                  🥋 Kumite
-                </span>
-              </Link>
-            </li>
-            <li>
-              <Link href="/kata" passHref>
-                <span className="block p-2 rounded hover:bg-gray-700" onClick={() => setIsOpen(false)}>
-                  🥋 Kata
-                </span>
-              </Link>
-            </li>
-            <li>
               <Link href="/students" passHref>
                 <span className="block p-2 rounded hover:bg-gray-700" onClick={() => setIsOpen(false)}>
                   🥋 Alunos
